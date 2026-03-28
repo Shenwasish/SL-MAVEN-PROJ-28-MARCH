@@ -11,6 +11,7 @@
 	
   <build>
 		<finalName>devops-calc</finalName>
+		
 		<plugins>
 
 			<plugin>

@@ -18,6 +18,10 @@ public class MyCalc {
 	{
 		return a/b;
 	}
+	void show()
+	{
+		System.out.println("Master Branch");
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -27,6 +31,7 @@ public class MyCalc {
 		System.out.println("Diff is "+calc.diff(20, 10));
 		System.out.println("Mul is "+calc.mul(20, 10));
 		System.out.println("Div is "+calc.div(20, 10));
+		calc.show();
 
 	}
 

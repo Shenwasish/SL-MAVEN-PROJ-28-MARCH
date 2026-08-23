@@ -43,5 +43,19 @@ pipeline
 					echo 'Build Success'
 				}
 			}	
+			stage('Final Success')
+			{
+				steps
+				{
+					echo 'Final Success'
+				}
+			}
+			stage('Supar Final Success')
+			{
+				steps
+				{
+					echo 'Supar Final Success'
+				}
+			}
 		}
 }
